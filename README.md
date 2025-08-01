@@ -40,7 +40,7 @@ A modern, fully functional e-commerce frontend built with Next.js, Redux Toolkit
 -   **Data Source**: FakeStore API
 
 ## Project Structure
-
+<pre>
 ├── app/
 │   ├── layout.tsx               # Root layout with navigation
 │   ├── page.tsx                 # Home page with product grid
@@ -69,7 +69,7 @@ A modern, fully functional e-commerce frontend built with Next.js, Redux Toolkit
 │   └── orderSlice.ts            # Order state management
 └── types/
 └── product.ts # TypeScript type definitions
-
+</pre>
 ## Getting Started
 
 ### Prerequisites
