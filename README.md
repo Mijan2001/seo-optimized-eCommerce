@@ -41,8 +41,6 @@ A modern, fully functional e-commerce frontend built with Next.js, Redux Toolkit
 
 ## Project Structure
 
-<pre>
-seo-optimized-eCommerce/
 ├── app/
 │   ├── layout.tsx               # Root layout with navigation
 │   ├── page.tsx                 # Home page with product grid
@@ -70,8 +68,7 @@ seo-optimized-eCommerce/
 │   ├── cartSlice.ts             # Cart state management
 │   └── orderSlice.ts            # Order state management
 └── types/
-    └── product.ts               # TypeScript type definitions
-</pre>
+└── product.ts # TypeScript type definitions
 
 ## Getting Started
 
@@ -83,12 +80,10 @@ seo-optimized-eCommerce/
 ### Installation
 
 1. **Clone the repository**
-
-    ```bash
-    git clone https://github.com/Mijan2001/seo-optimized-eCommerce.git
-    cd seo-optimized-eCommerce
-
-    ```
+   \`\`\`bash
+   git clone https://github.com/Mijan2001/seo-optimized-eCommerce.git
+   cd seo-optimized-eCommerce
+   \`\`\`
 
 2. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -100,7 +95,7 @@ npm run build
 npm start
 \`\`\`
 
-## SEO Highlights
+## 🔍 SEO Highlights
 
 ### Technical SEO
 
