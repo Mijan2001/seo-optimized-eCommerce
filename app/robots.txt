@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /product/*
+
+Disallow: /checkout
+Disallow: /orders
+
+Sitemap: https://shophub.example.com/sitemap.xml
