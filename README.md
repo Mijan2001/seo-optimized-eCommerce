@@ -6,11 +6,11 @@ A modern, fully functional e-commerce frontend built with Next.js, Redux Toolkit
 
 ## ScreenShots
 
-![Home Page](./home.png)
-![Product Details](./product-details.png)
-![Shopping Cart](./product-cart.png)
-![Checkout](./payment.png)
-![Order History](./order.png)
+![Home Page](./public/home.png)
+![Product Details](./public/product-details.png)
+![Shopping Cart](./public/product-cart.png)
+![Checkout](./public/payment.png)
+![Order History](./public/order.png)
 
 ### Core Functionality
 
@@ -40,36 +40,37 @@ A modern, fully functional e-commerce frontend built with Next.js, Redux Toolkit
 -   **Data Source**: FakeStore API
 
 ## Project Structure
-
+<pre>
+seo-optimized-eCommerce/
 ├── app/
-│ ├── layout.tsx # Root layout with navigation
-│ ├── page.tsx # Home page with product grid
-│ ├── product/[id]/page.tsx # Dynamic product pages
-│ ├── checkout/page.tsx # Checkout page
-│ ├── orders/page.tsx # Orders history page
-│ ├── globals.css # Global styles
-│ ├── robots.txt # SEO robots file
-│ ├── sitemap.ts # Dynamic sitemap generation
-│ └── not-found.tsx # 404 error page
+│   ├── layout.tsx               # Root layout with navigation
+│   ├── page.tsx                 # Home page with product grid
+│   ├── product/[id]/page.tsx    # Dynamic product pages
+│   ├── checkout/page.tsx        # Checkout page
+│   ├── orders/page.tsx          # Orders history page
+│   ├── globals.css              # Global styles
+│   ├── robots.txt               # SEO robots file
+│   ├── sitemap.ts               # Dynamic sitemap generation
+│   └── not-found.tsx            # 404 error page
 ├── components/
-│ ├── Navigation.tsx # Main navigation component
-│ ├── ProductGrid.tsx # Product listing grid
-│ ├── ProductCard.tsx # Individual product card
-│ ├── ProductDetails.tsx # Product detail view
-│ ├── CheckoutPage.tsx # Checkout page container
-│ ├── CheckoutForm.tsx # Order form with validation
-│ ├── CartItem.tsx # Cart item component
-│ ├── OrdersPage.tsx # Orders page container
-│ ├── OrderCard.tsx # Order summary card
-│ ├── OrderDetails.tsx # Detailed order view
-│ └── OrderConfirmation.tsx # Order success page
+│   ├── Navigation.tsx           # Main navigation component
+│   ├── ProductGrid.tsx          # Product listing grid
+│   ├── ProductCard.tsx          # Individual product card
+│   ├── ProductDetails.tsx       # Product detail view
+│   ├── CheckoutPage.tsx         # Checkout page container
+│   ├── CheckoutForm.tsx         # Order form with validation
+│   ├── CartItem.tsx             # Cart item component
+│   ├── OrdersPage.tsx           # Orders page container
+│   ├── OrderCard.tsx            # Order summary card
+│   ├── OrderDetails.tsx         # Detailed order view
+│   └── OrderConfirmation.tsx    # Order success page
 ├── store/
-│ ├── index.ts # Redux store configuration
-│ ├── cartSlice.ts # Cart state management
-│ └── orderSlice.ts # Order state management
+│   ├── index.ts                 # Redux store configuration
+│   ├── cartSlice.ts             # Cart state management
+│   └── orderSlice.ts            # Order state management
 └── types/
-└── product.ts # TypeScript type definitions
-
+    └── product.ts               # TypeScript type definitions
+</pre>
 ## Getting Started
 
 ### Prerequisites
@@ -80,30 +81,11 @@ A modern, fully functional e-commerce frontend built with Next.js, Redux Toolkit
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Mijan2001/seo-optimized-eCommerce.git
    cd seo-optimized-eCommerce
-   \`\`\`
 
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-
-    # or
-
-    yarn install
-    \`\`\`
-
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-
-    # or
-
-    yarn dev
-    \`\`\`
-
-4. **Open your browser**
+2. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Build for Production
@@ -113,7 +95,7 @@ npm run build
 npm start
 \`\`\`
 
-## 🔍 SEO Highlights
+##  SEO Highlights
 
 ### Technical SEO
 
