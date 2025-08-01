@@ -126,7 +126,9 @@ export function CheckoutPage() {
 
                         <div className="border-t pt-4">
                             <div className="flex justify-between items-center text-lg font-semibold">
-                                <span>Total ({totalItems} items):</span>
+                                <span className="font-bold text-red-500 ">
+                                    Total ({totalItems} items):
+                                </span>
                                 <span className="text-blue-600">
                                     ${total.toFixed(2)}
                                 </span>

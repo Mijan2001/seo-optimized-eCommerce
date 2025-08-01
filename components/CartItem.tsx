@@ -45,24 +45,25 @@ export function CartItem({ item }: CartItemProps) {
                 <button
                     onClick={() => handleQuantityChange(item.quantity - 1)}
                     className="p-1 rounded-md hover:bg-gray-100 transition-colors"
+                    title="Decrease quantity"
                 >
-                    <Minus size={16} />
+                    <Minus className="text-black" size={16} />
                 </button>
 
-                <span className="w-8 text-center font-medium">
+                <span className="w-8 text-black text-center font-medium">
                     {item.quantity}
                 </span>
-
                 <button
                     onClick={() => handleQuantityChange(item.quantity + 1)}
                     className="p-1 rounded-md hover:bg-gray-100 transition-colors"
+                    title="Increase quantity"
                 >
-                    <Plus size={16} />
+                    <Plus className="text-black" size={16} />
                 </button>
-
                 <button
                     onClick={() => dispatch(removeFromCart(item.id))}
                     className="p-1 rounded-md hover:bg-red-100 text-red-600 transition-colors ml-2"
+                    title="Remove from cart"
                 >
                     <Trash2 size={16} />
                 </button>
